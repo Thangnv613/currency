@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+
+</head>
+<style>
+    .table1{
+        width: 100%s;
+    }
+    td{
+        padding: 5px 5px 10px 30px ;
+    }
+    th{
+        padding: 1px 1px 1px 35px;
+        text-align: left;
+    }
+   #button{
+       background:#ffb203;
+       border-style: 10px;
+       width: 120px;
+       height: 30px;
+   }
+#currency1,#currency2{
+    padding: .2em 5em .20em .5em;
+    font-size: 14x;
+}
+</style>
+
+<body>
+<table class="table1">
+    <tr>
+        <th>Amounut</th>
+        <th>From currency</th>
+        <th>To currency</th>
+    </tr>
+    <tr>
+    <td ><input type="number" id="nhapsotien" style="border-style: inset"></td>
+        <td style="width: 80px">
+<select id="currency1" style="border-style: inset">
+    <option value="VND">Việt Nam</option>
+    <option value="USD">Mỹ</option>
+        </td>
+        <td>
+</select>
+    <select id="currency2" style="border-style: inset" >
+        <option value="VND">Việt Nam</option>
+        <option value="USD">Mỹ</option>
+    </select>
+        </td>
+<td>
+        <button onclick="anvaodi()" id="button">Convert</button><br>
+</td>
+    </tr>
+</table>
+<script src="main.js"></script>
+</body>
+
+</html>
